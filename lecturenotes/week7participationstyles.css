@@ -1,0 +1,9 @@
+body{
+    background-color: #000000;
+    background-image: url("../ist263images/otto.png");
+}
+
+.first{
+    border: 2px solid #0015ff;
+    padding: 10px;
+}
