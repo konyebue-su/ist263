@@ -25,9 +25,10 @@ h2 {
     color: #FFFFFF
 }
 
-a:link {
+/* a:link {
     color: #FFFFFF
-}
+} */
+
 
 @media only screen and (max-width: 1024px) {
     nav a {
