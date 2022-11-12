@@ -1,0 +1,47 @@
+nav {
+    background-color: #272f54;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    background-color: #acc4d8;
+}
+
+nav a:hover {
+    background-color: #FFA500;
+}
+
+body {
+    background-color: #06c3fa;
+}
+
+p {
+    color: #000000;
+}
+
+h1,
+h2 {
+    color: #FFFFFF
+}
+
+a:link {
+    color: #FFFFFF
+}
+
+@media only screen and (max-width: 1024px) {
+    nav a {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    nav a {
+        display: inline;
+    }
+}
