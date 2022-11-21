@@ -80,3 +80,7 @@ button {
 #hotel-desc {
     padding-right: 50px;
 }
+
+img {
+    filter: brightness(50%);
+}
