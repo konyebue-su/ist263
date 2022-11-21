@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 80px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#home-link {
+    padding-right: 400px;
+}
+
+#plan-link {
+    padding-left: 400px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#subheader-homepage {
+    font-size: 20px;
+    padding-right: 350px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#subheader-homepage2 {
+    font-size: 25px;
+}
+
+#broadway-header,
+#hotel-header {
+    padding-right: 550px;
+}
+
+button {
+    padding: 10px;
+    margin-right: 720px;
+}
+
+#hotel-header {
+    padding-right: 650px;
+}
+
+#hotel-desc {
+    padding-right: 50px;
+}
