@@ -100,3 +100,7 @@ button {
 #subway-seats {
     filter: brightness(65%);
 }
+
+#more-button {
+    background-color: black;
+}
