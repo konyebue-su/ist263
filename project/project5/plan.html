@@ -10,35 +10,54 @@
 </head>
 
 <body>
-    <nav>
-        <a href="home.html">Visit NYC</a>
-        <a href="explore.html">Explore</a>
-        <a href="plan.html">Plan</a>
-    </nav>
-    <div>
-        <img src="../images/train.jpg" alt="train-photo" width="1000">
-        <h1>Plan Your Trip</h1>
-        <p>The best way to get the most out of the greatest city in the world is by planning ahead! We’ve
-            got you covered with the best travel and lodging options.</p>
+    <div class="container">
+        <div class="top-left">
+            <a href="#content" class="skip" tabindex="1">Skip to Content</a><br>
+            <nav>
+                <a id="home-link" href="index.html">Visit NYC</a>
+                <a id="explore-link" href="explore.html">Explore</a>
+                <a id="plan-link" href="plan.html">Plan</a>
+            </nav>
+        </div>
     </div>
-    <div>
-        <img src="../images/hotel2.jpg" alt="train-photo" width="700">
-        <h2>Where to Stay</h2>
-        <p>Select from the best lodging options available in the city</p>
-        <button>Find Hotels</button>
+    <img id="platform-photo" src="../images/train.jpg" alt="person standing on train platform">
+    <div class="centered">
+        <div class="container">
+            <h1 id="plan-header">Plan Your Trip</h1>
+            <p id="plan-subheader">The best way to get the most out of the greatest city in the world is by planning
+                ahead! We’ve
+                got you covered with the best travel and lodging options.</p>
+        </div>
     </div>
-    <div>
-        <img src="../images/schedule-trip.jpg" alt="train-photo" width="700">
-        <h2>Schedule Your Trip</h2>
-        <p>Whether you live relatively close or thousands of miles away, we got you covered with the best
-            tickets available!</p>
-        <a href="https://www.trivago.com/en-US/vrt/flights#/flights"><img src="../images/flight-photo.jpg"
-                alt="flight-photo" width="300"></a>
-        <h3>Flights</h3>
-        <a href="https://www.wanderu.com"><img src="../images/bus.jpg" alt="bus-photo" width="300"></a>
-        <h3>Bus Tickets</h3>
-        <a href="https://www.wanderu.com"><img src="../images/train2.jpg" alt="train-photo" width="300"></a>
-        <h3>Train Tickets</h3>
+    <div class="container">
+        <img id="hotel2" src="../images/hotel2.jpg" alt="hotel room bed">
+        <div class="bottom-left">
+            <h2 id="stay-header">Where to Stay</h2>
+            <p id="stay-subheader">Select from the best lodging options available in the city</p>
+            <button>Find Hotels</button>
+        </div>
+    </div>
+    <div class="container">
+        <img id="airport" src="../images/schedule-trip.jpg" alt="airport waiting area">
+        <div class="bottom-left">
+            <h2 id="schedule-header">Schedule Your Trip</h2>
+            <p>Whether you live relatively close or thousands of miles away, we got you covered with the best
+                tickets available!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tickets">
+            <a href="https://www.trivago.com/en-US/vrt/flights#/flights"><img src="../images/flight-photo.jpg"
+                    alt="airplane in air" width="300">
+                <p>Flights</p>
+            </a>
+            <a href="https://www.wanderu.com"><img src="../images/bus.jpg" alt="parked bus" width="300">
+                <p>Bus Tickets</p>
+            </a>
+            <a href="https://www.wanderu.com"><img src="../images/train2.jpg" alt="trains on tracks" width="300">
+                <p>Train Tickets</p>
+            </a>
+        </div>
     </div>
 </body>
 
